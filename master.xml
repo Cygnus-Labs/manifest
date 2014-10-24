@@ -33,10 +33,10 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="coreos/portage-stable"
+           name="cygnus-labs/portage-stable"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
+           name="cygnus-labs/coreos-overlay"
            groups="minilayout" />
 
   <project path="src/third_party/dbus-c++"
@@ -56,7 +56,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/init"
-           name="coreos/init"
+           name="cygnus-labs/init"
            groups="minilayout" />
 
   <project path="src/third_party/bootengine"
@@ -105,7 +105,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/baselayout"
-           name="coreos/baselayout"
+           name="cygnus-labs/baselayout"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-cloudinit"
