@@ -76,7 +76,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/docker"
-           name="coreos/docker"
+           name="dotcloud/docker"
            groups="minilayout" />
 
   <project path="src/third_party/etcdctl"
