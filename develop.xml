@@ -30,7 +30,7 @@ Your sources have been sync'd successfully.
            name="coreos/board-overlays"
            groups="minilayout" />
   <project path="src/scripts" name="cygnus-labs/scripts"
-           groups="minilayout" revision="develop" />
+           groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
            name="cygnus-labs/portage-stable"
