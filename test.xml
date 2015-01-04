@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="_release.xml" />
+  <project path="chromite" name="cygnus-labs/chromite" groups="minilayout"
+           revision="extra-portdir-option" >
+    <copyfile src="AUTHORS" dest="AUTHORS" />
+    <copyfile src="LICENSE" dest="LICENSE" />
+  </project>
+  <project path="src/scripts" name="cygnus-labs/scripts"
+           revision="extra-portdir-support"
+           groups="minilayout" />
+</manifest>
