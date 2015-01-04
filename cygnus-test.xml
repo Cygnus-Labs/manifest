@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="release.xml" />
+
+  <remove-project name="coreos/scripts" />
+  <project path="src/scripts" name="cygnus-labs/scripts"
+           revision="auto-symlink-repo-configs"
+           groups="minilayout" />
+  <project path="config/portage/repos/cygnus"
+           name="cygnus-labs/cygnus-repo-config"
+           groups="minilayout" />
+  <project path="src/third_party/cygnus-overlay"
+           name="cygnus-labs/cygnus-overlay"
+           groups="minilayout" />
+</manifest>

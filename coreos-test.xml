@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="release.xml" />
+
+  <remove-project name="coreos/scripts" />
+  <project path="src/scripts" name="cygnus-labs/scripts"
+           revision="auto-symlink-repo-configs"
+           groups="minilayout" />
+</manifest>
