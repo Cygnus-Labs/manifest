@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="_release.xml" />
+  <include name="release.xml" />
   <project path="chromite" name="cygnus-labs/chromite" groups="minilayout"
            revision="extra-portdir-option" >
     <copyfile src="AUTHORS" dest="AUTHORS" />
